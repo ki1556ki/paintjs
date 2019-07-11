@@ -51,7 +51,7 @@ function hnadleColorClick(event) {
 }
 
 function handleRangeChange(event){
-    console.log(size);
+    const size = event.target.value;
     ctx.lineWidth = size;
 }
 
